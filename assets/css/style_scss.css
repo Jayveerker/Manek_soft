@@ -1,0 +1,708 @@
+@font-face {
+  font-family: "light-Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Light.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Light.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Light.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Light.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Light.svg#NeurialGrotesk-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "medium-Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Medium.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.svg#NeurialGrotesk-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Regular.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.svg#NeurialGrotesk-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "light-Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Light.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Light.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Light.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Light.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Light.svg#NeurialGrotesk-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "medium-Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Medium.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.svg#NeurialGrotesk-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Regular.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.svg#NeurialGrotesk-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "light-Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Light.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Light.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Light.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Light.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Light.svg#NeurialGrotesk-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "medium-Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Medium.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.svg#NeurialGrotesk-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Regular.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.svg#NeurialGrotesk-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: Neurial Grotesk;
+}
+
+.text-color {
+  color: #A2A2A2;
+}
+
+.margin {
+  margin: auto 270px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .margin {
+    margin: auto 10px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+  .margin {
+    margin: 0px 20px 0 20px;
+  }
+}
+
+.color {
+  background-color: #F4F4F4;
+  border: 1px solid #FFFFFF;
+}
+
+.main-container {
+  width: 1920px;
+  margin: auto;
+}
+@media screen and (min-width: 320px) and (max-width: 1535px) {
+  .main-container {
+    width: auto;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: light-Neurial Grotesk;
+  font-size: 40px;
+}
+
+header {
+  background-color: #00065a;
+  color: white;
+}
+header .header-img {
+  width: 300px;
+}
+header .nav-margin {
+  margin: auto 270px auto 270px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  header .nav-margin {
+    margin: auto 20px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+  header .nav-margin {
+    margin: auto 20px;
+  }
+}
+header .nav-margin div:first-child {
+  color: #BCFA01;
+  margin-bottom: 18px;
+}
+header .nav-margin .nav-button {
+  border: 1px solid #BCFA01;
+  background-color: #BCFA01;
+  border-radius: 50px;
+  padding: 10px 45px 10px 20px;
+  color: black;
+}
+header .nav-margin .navbar li:hover {
+  color: black;
+}
+header .header-contain {
+  margin: 146px 270px auto 270px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  header .header-contain {
+    margin: auto 10px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+  header .header-contain {
+    margin: 146px 20px 0 20px;
+  }
+}
+header .header-paragraph-no1 {
+  width: 881px;
+  font-size: 72px;
+  line-height: 90px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  header .header-paragraph-no1 {
+    margin: auto;
+    width: auto;
+    font-size: 21px;
+    line-height: 29px;
+  }
+}
+header .header-paragraph-no2 {
+  width: 798px;
+  font-size: 18px;
+  margin-top: 16px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  header .header-paragraph-no2 {
+    width: auto;
+    font-size: 24px;
+  }
+}
+header .button-1 {
+  border: 1px solid #BCFA01;
+  background-color: #BCFA01;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: black;
+}
+header .button-2 {
+  border: 1px solid #BCFA01;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+}
+header .button-2:hover {
+  background-color: #BCFA01;
+  padding: 10px 30px;
+  color: black;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  header .mobile-menu li {
+    margin-bottom: 10px;
+  }
+  header .info-header {
+    width: auto;
+  }
+  header .mobile-menu {
+    left: -200%;
+    transition: 1s;
+    z-index: 100;
+    top: 50px;
+    width: 300px !important;
+    height: 200vh;
+    transition: all ease 0.3s;
+  }
+  header .mobile-menu.active {
+    left: 0;
+  }
+  header .header-image {
+    width: auto !important;
+    height: auto !important;
+  }
+}
+
+.footer-heading {
+  background-color: #0E0E0E;
+}
+
+.contact {
+  color: #BCFA01;
+}
+
+.main-footer {
+  background-color: #161616;
+}
+.main-footer .service {
+  color: #f4f4f5;
+}
+.main-footer .main-footer-contain {
+  gap: 90px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .main-footer .main-footer-contain {
+    gap: 10px;
+  }
+}
+.main-footer .footer-nav li {
+  padding-bottom: 4px;
+}
+.main-footer .footer-nav {
+  padding-bottom: 10px;
+}
+.main-footer .footer-section-button {
+  background-color: #BCFA01;
+  padding: 10px 30px;
+  color: black;
+  border-radius: 50px;
+}
+.main-footer .terms {
+  border-top: 1px solid #292929;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "light-Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Light.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Light.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Light.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Light.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Light.svg#NeurialGrotesk-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "medium-Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Medium.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Medium.svg#NeurialGrotesk-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neurial Grotesk";
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Regular.eot");
+  src: url("/assets/fonts/neurial/NeurialGrotesk-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.woff2") format("woff2"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.woff") format("woff"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.ttf") format("truetype"), url("/assets/fonts/neurial/NeurialGrotesk-Regular.svg#NeurialGrotesk-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.about-section-button {
+  background-color: #BCFA01;
+  padding: 10px 30px;
+  color: black;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.how-it-work-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  background-color: #091071;
+}
+.how-it-work-section .how-it-work-section-contain {
+  margin: 13px 270px 79px 270px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .how-it-work-section .how-it-work-section-contain {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+  .how-it-work-section .how-it-work-section-contain {
+    margin: 20px 0 20px;
+  }
+}
+
+.heading {
+  text-align: center;
+  margin-top: 50px;
+}
+.heading .border-paragraph {
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding: 5px;
+}
+
+.about-section {
+  margin: 96px 270px 79px 270px;
+}
+.about-section .about-section-img {
+  width: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .about-section {
+    margin: 20px 10px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+  .about-section {
+    margin: 146px 20px 0 20px;
+  }
+}
+.about-section .about-section-paragraph {
+  width: 668px;
+  line-height: 28px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .about-section .about-section-paragraph {
+    width: auto;
+  }
+}
+.about-section .about-section-heading {
+  width: 668px;
+  margin-bottom: 38px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .about-section .about-section-heading {
+    width: auto;
+    font-size: 20px;
+  }
+}
+
+.cards-section {
+  margin: 96px 270px 79px 270px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .cards-section {
+    margin: 10px 10px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+  .cards-section {
+    margin: 146px 20px 60px 20px;
+  }
+}
+.cards-section .cards-contain {
+  border: 1px solid #F4F4F5;
+  margin: 12px;
+  padding: 35px;
+  background-color: #F4F4F5;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .cards-section .cards-contain {
+    padding: 20px;
+  }
+}
+.cards-section .cards-heading {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+.cards-section .cards-contain:hover:not(card-active) {
+  background: #fff;
+}
+.cards-section .card-active {
+  background: #fff;
+}
+.cards-section .cards-contain p {
+  line-height: 22px;
+  word-spacing: 5px;
+}
+.cards-section .cards-section-main-paragraph {
+  font-size: 19px;
+  margin-bottom: 53px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .cards-section .cards-section-main-paragraph {
+    font-size: 12px;
+    margin: 10px 10px;
+  }
+}
+
+.design-an-branding-section {
+  background-color: #091071;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .design-an-branding-section {
+    margin: auto;
+  }
+}
+.design-an-branding-section .design-an-branding-section-conatin {
+  width: 963px;
+}
+.design-an-branding-section .design-an-branding-bg {
+  margin: 96px 270px 79px 270px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .design-an-branding-section .design-an-branding-bg {
+    margin: auto 10px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+  .design-an-branding-section .design-an-branding-bg {
+    margin: 20px 20px 0 20px;
+  }
+}
+.design-an-branding-section .design-an-branding-heading {
+  font-size: 50px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .design-an-branding-section .design-an-branding-heading {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+}
+.design-an-branding-section .design-an-branding-paragraph {
+  line-height: 38px;
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.Involed-Industries-section {
+  margin: 96px 270px 79px 270px;
+}
+.Involed-Industries-section .involed-industries-name li:not(first-child) {
+  margin-top: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .Involed-Industries-section {
+    margin: 20px 10px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+  .Involed-Industries-section {
+    margin: 146px 20px 0 20px;
+  }
+}
+.Involed-Industries-section .Involed-Industries-paragraph {
+  font-size: 23px;
+}
+
+.swiper-section {
+  margin: auto 214px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .swiper-section {
+    margin: auto 10px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+  .swiper-section {
+    margin: 146px 20px 0 20px;
+  }
+}
+.swiper-section .eCommerce-p {
+  bottom: 41px;
+  left: 52px;
+}
+.swiper-section .ecommerce-p-1 {
+  border: 1px solid #FFFFFF;
+  background-color: rgb(207, 209, 208);
+  color: black;
+  padding: 6px;
+  font-size: 16px;
+}
+.swiper-section .ecommerce-p-2 {
+  font-size: 24px;
+  color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .swiper-section .ecommerce-p-2 {
+    font-size: 24px;
+  }
+}
+.swiper-section .swiper-wrapper {
+  margin-top: 72px;
+}
+.swiper-section .swiper-section-paragraph {
+  font-size: 19px;
+}
+
+.blogs-section {
+  margin-top: 70px;
+}
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+  .blogs-section {
+    margin: 146px 20px 0 20px;
+  }
+}
+.blogs-section .blog-section-container-1 {
+  background-color: #F4F4F4;
+  border: 1px solid #FFFFFF;
+}
+.blogs-section .blog-container-1-heading {
+  border: 1px solid #BCFA01;
+  background-color: #BCFA01;
+}
+.blogs-section .blog-container-2-heading {
+  border: 1px solid #D6F5D9;
+  background-color: rgb(214, 247, 217);
+}
+.blogs-section .blog-container-3-heading {
+  border: 1px solid #EBD6F5;
+  background-color: rgb(235, 214, 245);
+}
+.blogs-section .blog-container-4-heading {
+  border: 1px solid #D6DFF5;
+  background-color: rgb(214, 223, 245);
+  font-size: 20px;
+}
+.blogs-section .blog-container-5-heading {
+  border: 1px solid #F5D6D6;
+  background-color: rgb(245, 214, 214);
+}
+.blogs-section .blog-container-2 {
+  padding: 8px;
+}
+
+.words-from-client-div {
+  width: 370px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .words-from-client-div {
+    width: auto;
+  }
+}
+.words-from-client-div .words-from-client-heading {
+  color: #00065a;
+  font-size: 10px;
+}
+.words-from-client-div .words-from-client-heading-2 {
+  font-size: 51px;
+}
+.words-from-client-div .profile-containt {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.container {
+  margin: 50px auto;
+}
+.container .panel {
+  background-color: white;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+.container button.accordion {
+  width: 100%;
+  border-bottom: 2px solid #E3E3E3;
+  outline: none;
+  text-align: left;
+  padding: 15px 20px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+.container .panel-paragraph {
+  font-size: 20px;
+  line-height: 30px;
+}
+.container button.accordion:hover, .container button.accordion.is-open {
+  background-color: #ddd;
+}
+
+.counter1 .counter-card1 h2 {
+  font-size: 44px;
+}
+.counter1 .counter-card1 p {
+  font-size: 20px;
+}
+
+.ecommerce-p-3 {
+  border: 1px solid #FFFFFF;
+  background-color: rgb(207, 209, 208);
+  color: black;
+  border: none;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.ecommerce-p-4 {
+  font-size: 24px;
+  color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .ecommerce-p-4 {
+    font-size: 24px;
+  }
+}
+
+.eCommerce-p-2 {
+  bottom: 41px;
+  left: 52px;
+}
+
+.card-container {
+  padding: 30px 54px 44px 20px;
+  border-bottom: 1px solid #e6e6e8;
+  border-right: 1px solid #e6e6e8;
+}
+
+.card-container-end {
+  border-bottom: 1px solid #e6e6e8;
+  padding: 30px 54px 44px 20px;
+}
+
+.card-heading {
+  padding: 10px 30px;
+  margin-bottom: 40px;
+}
+
+.card-no1 {
+  background-color: #EDEAFF;
+}
+
+.card-no2 {
+  background-color: #fceaea;
+}
+
+.card-no3 {
+  background-color: #dbfce8;
+}
+
+.card-no4 {
+  background-color: #fdeaf8;
+}
+
+.card-no5 {
+  background-color: #f8f2e7;
+}
+
+.card-no6 {
+  background-color: #EaF3ff;
+}
+
+.card-no7 {
+  background-color: #fdfbd9;
+}
+
+.the-models-cards {
+  border-bottom: 1px solid #e6e6e8;
+  padding: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  .the-models-cards {
+    font-size: 24px;
+    padding: 10px;
+  }
+}
+.models-1 {
+  background-color: #FFF8EB;
+}
+
+.models-2 {
+  background-color: #F0F7FF;
+}
+
+.models-3 {
+  background-color: #E5FFF0;
+}
+
+.counter-container1 {
+  border: 1px solid #e6e6e8;
+}/*# sourceMappingURL=style_scss.css.map */
