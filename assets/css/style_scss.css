@@ -204,6 +204,12 @@ header .button-2:hover {
   padding: 10px 30px;
   color: black;
 }
+header .sevice-page-header-paragraph-no1 {
+  width: 881px;
+  word-spacing: 8px;
+  font-size: 25px;
+  line-height: 38px;
+}
 @media screen and (min-width: 320px) and (max-width: 1279px) {
   header .mobile-menu li {
     margin-bottom: 10px;
@@ -245,6 +251,7 @@ header .button-2:hover {
 }
 .main-footer .main-footer-contain {
   gap: 90px;
+  align-items: flex-start;
 }
 @media screen and (min-width: 320px) and (max-width: 1279px) {
   .main-footer .main-footer-contain {
@@ -565,7 +572,7 @@ header .button-2:hover {
 }
 .words-from-client-div .words-from-client-heading {
   color: #00065a;
-  font-size: 10px;
+  font-size: 38px;
 }
 .words-from-client-div .words-from-client-heading-2 {
   font-size: 51px;
@@ -610,6 +617,17 @@ header .button-2:hover {
 }
 .counter1 .counter-card1 p {
   font-size: 20px;
+}
+.counter1 .counter-card1 h2 {
+  color: #0f035a;
+}
+.counter1 .counter-box {
+  border-bottom: 1px solid #e6e6e8;
+  padding: 30px 57px 45px 27px;
+}
+.counter1 .counter-box-lift {
+  border-left: 1px solid #e6e6e8;
+  padding: 30px 57px 45px 27px;
 }
 
 .ecommerce-p-3 {
@@ -703,16 +721,32 @@ header .button-2:hover {
   background-color: #E5FFF0;
 }
 
-.counter-container1 {
+.grid-counter {
   border: 1px solid #e6e6e8;
+}
+
+.counter-contain {
+  width: 743px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .counter-contain {
+    font-size: 14px;
+    width: auto;
+  }
 }
 
 .benifits-section .benifits-small-heading {
   font-size: 10px;
 }
 .benifits-section .benifits-small-paragraph {
-  font-size: 10px;
+  font-size: 12px;
   width: 302px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .benifits-section .benifits-small-paragraph {
+    font-size: 12px;
+    width: auto;
+  }
 }
 .benifits-section .benifits-img {
   width: 30px;
@@ -723,25 +757,59 @@ header .button-2:hover {
 }
 .benifits-section .tick-heading {
   border: 1px solid #e6e6e8;
-  padding: 20px;
+  padding: 13px 21px 14px 28px;
   margin-bottom: 10px;
-  margin-left: 10px;
   background-color: #FFFFFF;
   border-radius: 5px;
+  left: -175px;
+  bottom: 38%;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .benifits-section .tick-heading {
+    left: 4px;
+    bottom: 34%;
+    padding: 14px 15px 14px 15px;
+    font-size: 16px;
+  }
 }
 .benifits-section .tick-heading-2 {
   border: 1px solid #e6e6e8;
-  padding: 18px 30px 18px 18px;
+  padding: 13px 81px 14px 28px;
   margin-bottom: 10px;
-  margin-left: -20px;
   background-color: #FFFFFF;
   border-radius: 5px;
+  left: -196px;
+  bottom: 25%;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .benifits-section .tick-heading-2 {
+    left: 4px;
+    bottom: 17%;
+    padding: 14px 40px 14px 15px;
+    font-size: 16px;
+  }
 }
 .benifits-section .tick-heading-3 {
   border: 1px solid #e6e6e8;
-  padding: 20px;
-  margin-left: -50px;
+  padding: 13px 68px 14px 28px;
   margin-bottom: 10px;
   background-color: #FFFFFF;
   border-radius: 5px;
+  left: -220px;
+  bottom: 12%;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .benifits-section .tick-heading-3 {
+    left: 4px;
+    bottom: 1%;
+    padding: 14px 16px 14px 15px;
+    font-size: 16px;
+  }
+}
+
+.cards-contain {
+  border: 1px solid #F4F4F5;
+  margin: 12px;
+  padding: 35px;
+  background-color: #F4F4F5;
 }/*# sourceMappingURL=style_scss.css.map */
