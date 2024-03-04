@@ -705,4 +705,43 @@ header .button-2:hover {
 
 .counter-container1 {
   border: 1px solid #e6e6e8;
+}
+
+.benifits-section .benifits-small-heading {
+  font-size: 10px;
+}
+.benifits-section .benifits-small-paragraph {
+  font-size: 10px;
+  width: 302px;
+}
+.benifits-section .benifits-img {
+  width: 30px;
+}
+.benifits-section .Benefits-styling-heading {
+  top: 204px;
+  left: -136px;
+}
+.benifits-section .tick-heading {
+  border: 1px solid #e6e6e8;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+.benifits-section .tick-heading-2 {
+  border: 1px solid #e6e6e8;
+  padding: 18px 30px 18px 18px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+.benifits-section .tick-heading-3 {
+  border: 1px solid #e6e6e8;
+  padding: 20px;
+  margin-left: -50px;
+  margin-bottom: 10px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
 }/*# sourceMappingURL=style_scss.css.map */
