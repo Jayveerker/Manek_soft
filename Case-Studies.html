@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ManekSoft</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/style_scss.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -46,7 +53,18 @@
             </a>
             <ul class="items-center gap-6 hidden sm:hidden md:flex">
               <a href="#"><li>Company</li></a>
-              <a href="#"><li>Services</li></a>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Service</a>
+                <div class="dropdown-content">
+                  <a href="#">Custom Software Development</a>
+                  <a href="#">Dedicated Development Team</a>
+                  <a href="#">Software Product Development </a>
+                  <a href="#">Ecommerce Development</a>
+                  <a href="#">Mobile Apps Development</a>
+                  <a href="#">Software Testing & QA</a>
+                  <a href="#">UX/UI Design</a>
+                </div>
+              </li>
               <a href="#"><li>Case Studies</li></a>
               <a href="#"></a>
               <li>Blog</li>
@@ -100,10 +118,259 @@
           </div>
         </div>
       </header>
+      <!-- form tag -->
+      <form class="flex gap-6 margin py-10 items-center">
+        <div class="select">
+          <select name="format" id="format">
+            <option selected disabled>Filter by technology</option>
+            <img class="px-4" src="./assets/image/down-arrow.svg" alt="" />
+            <option value="Filter by technology">Filter by technology</option>
+          </select>
+        </div>
+        <div class="select">
+          <select name="format" id="format">
+            <option selected disabled>Filter by technology</option>
+            <i class="fa-sharp fa-solid fa-angle-down"></i>
+            <option value="Filter by technology">Filter by technology</option>
+          </select>
+        </div>
+      </form>
+      <!-- image-container -->
+      <section class="my-10">
+        <div
+          class="margin img-contanier grid justify-center grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-4"
+        >
+          <!-- 1 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/swiper-img-1.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/ swiper-img-2.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">Energy & Utility</p>
+              <p class="ecommerce-p-4">industrial Revolution</p>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/swiper-img-3.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/case-img-4.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/ swiper-img-2.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/case-img-6.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+        </div>
+        <!-- img-container-2 -->
+        <div
+          class="margin img-contanier grid gap-4 grid-cols-1 md:grid-cols-2 py-4"
+        >
+          <div class="relative flex">
+            <div>
+              <img src="./assets/image/case-img-cont-2-img1.png" alt="" />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+          <div class="relative flex">
+            <div>
+              <img src="./assets/image/case-img-cont-2-img2.png" alt="" />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+        </div>
+        <!-- img-container-2 -->
+        <div
+          class="margin img-contanier grid justify-center grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-4"
+        >
+          <!-- 1 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/case-cont-3-img1.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/case-cont-3-img2.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">Energy & Utility</p>
+              <p class="ecommerce-p-4">industrial Revolution</p>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/swiper-img-3.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/swiper-img-1.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/ swiper-img-2.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="relative">
+            <div>
+              <img
+                class="case-imgs"
+                src="./assets/image/swiper-img-3.png"
+                alt=""
+              />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+        </div>
+        <!-- img-container-2 -->
+        <div
+          class="margin img-contanier grid gap-4 grid-cols-1 md:grid-cols-2 py-4"
+        >
+          <div class="relative flex">
+            <div>
+              <img src="./assets/image/case-cont-4-im1.png" alt="" />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+          <div class="relative flex">
+            <div>
+              <img src="./assets/image/case-cont-4-im2.png" alt="" />
+            </div>
+            <div class="absolute eCommerce-p-2">
+              <p class="ecommerce-p-3 w-fit">eCommerce</p>
+              <p class="ecommerce-p-4">eCommerce</p>
+            </div>
+          </div>
+        </div>
+        <div class="case-imgs-load-button flex justify-center mx-auto my-6">
+          <a class="button-1 flex gap-2 items-center" href="#"
+            ><img src="assets/image/load.svg" alt="" />Load More</a
+          >
+        </div>
+      </section>
 
+      <!-- footer -->
       <div class="footer-heading">
         <div
-          class="margin flex flex-col items-center justify-around p-4 text-white my-10"
+          class="margin flex flex-col md:flex-row items-center justify-around p-4 text-white my-10"
         >
           <div>
             <h2 class="text-2xl py-7">
