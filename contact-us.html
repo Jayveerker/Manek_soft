@@ -66,8 +66,8 @@
                 </div>
               </li>
               <a href="#"><li>Case Studies</li></a>
-              <a href="#"></a>
-              <li>Blog</li>
+              <a href="#"> <li>Blog</li></a>
+
               <a href="#"> <li class="nav-button">Contact Us</li></a>
             </ul>
           </nav>
@@ -102,7 +102,7 @@
           class="header-contain flex justify-center md:items-center flex-col md:flex-row"
         >
           <div>
-            <h2 class="text-4xl py-3">Case Studies</h2>
+            <h2 class="text-4xl py-3">Contact Us</h2>
             <h1 class="header-paragraph-no1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </h1>
@@ -110,7 +110,7 @@
             <div class="flex items-center gap-9 my-4">
               <h2 class="text-2xl">Home</h2>
               <i class="fa-sharp text-2xl my-4 fa-solid fa-angle-right"></i>
-              <h2 class="text-2xl">Case Studies</h2>
+              <h2 class="text-2xl">Contact Us</h2>
             </div>
           </div>
           <div>
@@ -119,254 +119,167 @@
         </div>
       </header>
       <!-- form tag -->
-      <form class="flex gap-6 margin py-10 items-center">
-        <div class="select">
-          <select name="format" id="format">
-            <option selected disabled>Filter by technology</option>
-            <img class="px-4" src="./assets/image/down-arrow.svg" alt="" />
-            <option value="Filter by technology">Filter by technology</option>
-          </select>
-        </div>
-        <div class="select">
-          <select name="format" id="format">
-            <option selected disabled>Filter by technology</option>
-            <i class="fa-sharp fa-solid fa-angle-down"></i>
-            <option value="Filter by technology">Filter by technology</option>
-          </select>
-        </div>
-      </form>
-      <!-- image-container -->
-      <section class="my-10">
-        <div
-          class="margin img-contanier grid justify-center grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-4"
-        >
-          <!-- 1 -->
-          <div class="relative">
+      <section class="margin">
+        <div>
+          <h2 class="py-4">We’d love to hear from you</h2>
+          <p class="form-paragraph">
+            Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Cras
+            tempor feugiat malesuada. Morbi vel pellentesque mi. Ut ornare nunc
+            nec lorem dignissim,
+          </p>
+          <div class="margin flex flex-col md:flex-row items-baseline">
             <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/swiper-img-1.png"
-                alt=""
-              />
+              <form action="#" class="contact-content">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                  <div class="my-4">
+                    <label for="fname">Full Name </label><br />
+                    <input type="text" name="fname" />
+                  </div>
+                  <div class="my-4">
+                    <label for="your Email">Your Email</label><br />
+                    <input type="email" name="your Email" />
+                  </div>
+                  <div class="my-4">
+                    <label for="Phone Number">Phone Number</label><br />
+                    <input type="tel" name="Phone Number" />
+                  </div>
+                  <div class="my-4">
+                    <label for="Your Country name my-6"
+                      >Your Country name </label
+                    ><br />
+                    <input type="text" name="Your Country name " />
+                  </div>
+                </div>
+                <div>
+                  <label for="Message">Message</label><br />
+                  <textarea
+                    class="text-2xl"
+                    name="Message"
+                    id="Message"
+                    cols="30"
+                    rows="10"
+                    placeholder="Type your message here"
+                  ></textarea>
+                </div>
+              </form>
+              <p class="file-names-paragraph">
+                Supports only PDF / DOC / DOCX / XLS / XLSX / PPT / PPTX / ZIP/
+                JPG/ JPEG (Size must be less than 5MB)
+              </p>
+
+              <!-- jhgkhbjkhjk -->
+              <div class="drag-area my-6">
+                <button>
+                  <div class="icon">
+                    <img src="./assets/image/upload.svg" alt="" />
+                  </div>
+                </button>
+                <h2 class="text-2-xl">Select or Drop your file here</h2>
+
+                <input type="file" hidden />
+              </div>
+              <div class="my-6">
+                <label for="checkbox"></label>
+                <input class="text-2xl" type="checkbox" /> &nbsp; Yes, I Want to
+                receive the latest marketing tips from Maneksoft.
+              </div>
+              <div class="flex flex-col md:flex-row justify-between">
+                <div class="recaptcha-section flex items-center gap-6 w-fit">
+                  <label for="checkbox"></label>
+                  <input class="text-2xl" type="checkbox" />
+                  <h2 class="text-xl">i'm not a robot</h2>
+                  <img
+                    class="recaptcha"
+                    src="./assets/image/RecaptchaLogo.svg.png"
+                    alt=""
+                  />
+                </div>
+
+                <a class="captha-button my-6 w-fit gap-2" href="#">Submit</a>
+              </div>
             </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
+
+            <aside>
+              <div class="margin">
+                <div class="flex gap-4 items-baseline">
+                  <img src="./assets/image/call-icon.svg" alt="" />
+                  <div>
+                    <h2 class="text-xl py-4 font-bold">Contact Number</h2>
+                    <a href="#" class="icon-content py-4"
+                      >+1 98956 987413, +1 80045 452 9571</a
+                    >
+                  </div>
+                </div>
+                <div class="flex gap-4 items-baseline">
+                  <img src="./assets/image/email.svg" alt="" />
+                  <div>
+                    <h2 class="text-xl py-4 font-bold">Email</h2>
+                    <a href="#" class="icon-content py-4"
+                      >officemailadd@yahoo.com</a
+                    >
+                  </div>
+                </div>
+                <div class="flex gap-4 items-baseline">
+                  <img src="./assets/image/location copy.svg" alt="" />
+                  <div>
+                    <h2 class="text-xl py-4 font-bold">Address</h2>
+                    <a href="#" class="icon-content py-4"
+                      >36-BT, NYT Tower, BCD Street, NY</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </aside>
           </div>
-          <!-- 2 -->
-          <div class="relative">
-            <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/ swiper-img-2.png"
-                alt=""
-              />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">Energy & Utility</p>
-              <p class="ecommerce-p-4">industrial Revolution</p>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div class="relative">
-            <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/swiper-img-3.png"
-                alt=""
-              />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-          <!-- 4 -->
-          <div class="relative">
-            <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/case-img-4.png"
-                alt=""
-              />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-          <!-- 5 -->
-          <div class="relative">
-            <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/ swiper-img-2.png"
-                alt=""
-              />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-          <!-- 6 -->
-          <div class="relative">
-            <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/case-img-6.png"
-                alt=""
-              />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-        </div>
-        <!-- img-container-2 -->
-        <div
-          class="margin img-contanier grid gap-4 grid-cols-1 md:grid-cols-2 py-4"
-        >
-          <div class="relative flex">
-            <div>
-              <img src="./assets/image/case-img-cont-2-img1.png" alt="" />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-          <div class="relative flex">
-            <div>
-              <img src="./assets/image/case-img-cont-2-img2.png" alt="" />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-        </div>
-        <!-- img-container-2 -->
-        <div
-          class="margin img-contanier grid justify-center grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-4"
-        >
-          <!-- 1 -->
-          <div class="relative">
-            <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/case-cont-3-img1.png"
-                alt=""
-              />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-          <!-- 2 -->
-          <div class="relative">
-            <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/case-cont-3-img2.png"
-                alt=""
-              />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">Energy & Utility</p>
-              <p class="ecommerce-p-4">industrial Revolution</p>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div class="relative">
-            <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/swiper-img-3.png"
-                alt=""
-              />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-          <!-- 4 -->
-          <div class="relative">
-            <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/swiper-img-1.png"
-                alt=""
-              />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-          <!-- 5 -->
-          <div class="relative">
-            <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/ swiper-img-2.png"
-                alt=""
-              />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-          <!-- 6 -->
-          <div class="relative">
-            <div>
-              <img
-                class="case-imgs"
-                src="./assets/image/swiper-img-3.png"
-                alt=""
-              />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-        </div>
-        <!-- img-container-2 -->
-        <div
-          class="margin img-contanier grid gap-4 grid-cols-1 md:grid-cols-2 py-4"
-        >
-          <div class="relative flex">
-            <div>
-              <img src="./assets/image/case-cont-4-im1.png" alt="" />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-          <div class="relative flex">
-            <div>
-              <img src="./assets/image/case-cont-4-im2.png" alt="" />
-            </div>
-            <div class="absolute eCommerce-p-2">
-              <p class="ecommerce-p-3 w-fit">eCommerce</p>
-              <p class="ecommerce-p-4">eCommerce</p>
-            </div>
-          </div>
-        </div>
-        <div class="case-imgs-load-button flex justify-center mx-auto my-6">
-          <a class="button-1 flex gap-2 items-center" href="#"
-            ><img src="assets/image/load.svg" alt="" />Load More</a
-          >
         </div>
       </section>
+      <div class="flex margin justify-center py-6">
+        <img src="./assets/image/company-name-img.png" alt="" />
+      </div>
 
+      <div
+        class="Words-from-clients-section margin gap-7 items-start grid grid-cols-1 py-6 my-10 justify-center md:grid-cols-2 xl:grid-cols-3 md:gap-6"
+      >
+        <div class="words-from-client-div">
+          <h2 class="words-from-client-heading">Words from clients</h2>
+          <h2 class="words-from-client-heading-2">What our clients say</h2>
+          <div class="about-section-button">
+            <a class="button-1" href="#">View all clients</a>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/image/duoble-inverted-comma.svg" alt="" />
+          <p class="profile-containt">
+            My company utilizes Maneksoft for assistance with expediting our
+            production. They have provided exceptional service thus far during
+            the numerous projects .Prof. Maneesh Kumar, Professor of Cardiff
+            Business School (Ranked 189th among world university.
+          </p>
+          <div class="flex gap-4 my-8">
+            <img src="./assets/image/profile-photo-1.svg" alt="" />
+            <div>
+              <h2 class="text-2xl">Stephen Capezza</h2>
+
+              <h2 class="text-2xl">Senior VP, Linkedin</h2>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/image/duoble-inverted-comma.svg" alt="" />
+          <p class="profile-containt">
+            My company utilizes Maneksoft for assistance with expediting our
+            production. They have provided exceptional service thus far during
+            the numerous projects.
+          </p>
+          <div class="flex gap-4 my-8">
+            <img src="./assets/image/profile-photo-2.svg" alt="" />
+            <div>
+              <h2 class="text-2xl">Michal Marren</h2>
+              <h2 class="text-2xl">Senior VP, AECC</h2>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- footer -->
       <div class="footer-heading">
         <div
@@ -472,4 +385,5 @@
       </div>
     </div>
   </body>
+  <script src="./assets/js/upload.js"></script>
 </html>

@@ -5,21 +5,20 @@
      padding: 0;
      font-family: $NeurialGrotesk;
 }
-
-
-
+.background-color-white{
+background-color: white;
+}
 .text-color{
     color: #A2A2A2;
 }
 .margin{
-    margin: auto 270px;
+    margin: auto 214px;
     @media screen and (min-width:320px)and(max-width:1279px){
       margin:auto 10px;
     }
     @media screen and (min-width:1280px)and(max-width:1535px){
       margin: 0px  20px 0 20px;
-  }
-    
+  }   
 }
 .color{
     background-color: #F4F4F4;
@@ -39,6 +38,15 @@
 object-fit: cover;
 background-size: cover;
 background-repeat: no-repeat;
+.transport-heading{
+  font-size: 16px;
+}
+.case-details-main-heading-cintent{
+  width: 979px;
+  @media screen and (min-width:320px)and(max-width:1279px){
+ width: auto;
+}
+}
 }
 h1,h2,h3,h4,h5,h6{
     font-family: $light-fonts;
@@ -84,7 +92,7 @@ header{
     }
     .header-paragraph-no1{
    width: 881px;
-   font-size: 72px;
+   font-size: 70px;
    line-height: 90px;
 
    @media screen and (min-width: 320px) and (max-width: 1279px) {
@@ -127,6 +135,12 @@ header{
       word-spacing: 8px;
       font-size: 25px;
       line-height: 38px;
+    }
+    .Blog-maim-heading{
+      font-size: 64px;
+      @media screen and (min-width: 320px) and (max-width: 1279px) {
+      font-size: 24px;
+      }
     }
 // 
 @media screen and (min-width: 320px) and (max-width: 1279px) {
@@ -193,7 +207,17 @@ padding-bottom: 4px;
   .terms{
      border-top: 1px solid #292929;
     align-items: center;
-    }
+  .last-footer-terms h2{
+font-size: 14px;
+  }  
+  .last-footer-terms li{
+    font-size: 14px;
+      }  
+      .rights-heading{
+        font-size: 14px;
+      }
+  }
+    
 }
 .navbar a{
   text-decoration : none;
@@ -217,19 +241,6 @@ padding-bottom: 4px;
   width : 100%;
 }
 // 
-// 
-li {
-  float: left;
-}
-
-li a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
 
 li.dropdown {
   display: inline-block;
@@ -256,4 +267,17 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+ 
+.blog-header{
+  @media screen and (min-width:320px)and(max-width:1024px){
+    position: static;
+    
+    }
+}
+.web-development-header{
+  background-color: #263748;
+  border: 1px solid ;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}

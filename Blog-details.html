@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ManekSoft</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style_scss.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="shortcut icon"
+      href="./assets/image/title-logo.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="nav-margin pt-5">
+          <div class="flex justify-end gap-11 items-center">
+            <a class="email" href="mailto:hello@maneksoft.com"
+              >hello@maneksoft.com
+            </a>
+            <a href=" +1 623-845-2747"> +1 623-845-2747</a>
+          </div>
+          <div class="call-an-email-icons md:hidden">
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <nav class="navbar flex justify-between">
+            <a href="#">
+              <img class="text-xl" src="./assets/image/logo.png" alt="" />
+            </a>
+            <ul class="items-center gap-6 hidden sm:hidden md:flex">
+              <a href="#"><li>Company</li></a>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Service</a>
+                <div class="dropdown-content">
+                  <a href="#">Custom Software Development</a>
+                  <a href="#">Dedicated Development Team</a>
+                  <a href="#">Software Product Development </a>
+                  <a href="#">Ecommerce Development</a>
+                  <a href="#">Mobile Apps Development</a>
+                  <a href="#">Software Testing & QA</a>
+                  <a href="#">UX/UI Design</a>
+                </div>
+              </li>
+              <a href="#"><li>Case Studies</li></a>
+              <a href="#"></a>
+              <li>Blog</li>
+              <a href="#"> <li class="nav-button">Contact Us</li></a>
+            </ul>
+          </nav>
+          <div class="flex items-center">
+            <div class="flex xl:hidden items-center gap-6">
+              <button id="mobile-button" class="xl:hidden block">
+                <i
+                  onclick="changeIcon(this)"
+                  title="Menu"
+                  class="fa-solid fa-bars"
+                ></i>
+              </button>
+            </div>
+            <div>
+              <div class="mobile-menu absolute w-full" id="mobile-menu">
+                <ul
+                  class="text-white flex flex-col py-6 xl:hidden xl:items-center z-10"
+                >
+                  <li class="mx-auto"><a href="#">Company</a></li>
+                  <li class="mx-auto"><a href="#">Services</a></li>
+                  <li class="mx-auto"><a href="#">Company</a></li>
+                  <li class="mx-auto"><a href="#">Case Studies</a></li>
+                  <li class="mx-auto"><a href="#">Blog</a></li>
+                  <a href="#"> <li class="nav-button">Contact Us</li></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="header-contain flex justify-center md:items-center flex-col md:flex-row"
+        >
+          <div>
+            <h2 class="web-development-header w-fit text-2xl py-3">
+              Web Development
+            </h2>
+            <h1 class="header-paragraph-no1">
+              Microsoft Dynamics 365 For Customized Healthcare Industry
+              Solutions.
+            </h1>
+            <div class="flex gap-10 my-4">
+              <h2 class="flex text-xl gap-2 items-center">
+                <img
+                  class="clock-icon"
+                  src="./assets/image/🦆 icon _clock_.svg"
+                  alt=""
+                />28 August 2021
+              </h2>
+              <h2 class="flex text-xl gap-2 items-center">
+                <img
+                  class="clock-icon"
+                  src="./assets/image/./🦆 icon _eye_.svg"
+                  alt=""
+                />5647
+              </h2>
+            </div>
+            <div class="flex gap-2 my-8">
+              <img src="./assets/image/profile.svg" alt="" />
+              <div>
+                <h3 class="text-2xl">Vinay Mishra</h3>
+                <h3 class="text-xl">Product Head</h3>
+              </div>
+            </div>
+            <div class="flex text-xl md:text-2xl items-center gap-2 my-4">
+              <h2 class="text-xl">Home</h2>
+              <i class="fa-sharp text-xl my-4 fa-solid fa-angle-right"></i>
+              <h2 class="text-xl">Blog</h2>
+              <i class="fa-sharp text-xl my-4 fa-solid fa-angle-right"></i>
+              <h2 class="text-xl">Blog Detail</h2>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/image/half-main-img.png" alt="" />
+          </div>
+        </div>
+      </header>
+      <!-- blog-details -->
+      <section class="margin Blog-details-main-content py-10">
+        <div class="margin flex flex-col gap-4 md:flex-row">
+          <div>
+            <p class="py-6 leading-6">
+              <span class="text-2xl">U</span>X designers generally strive to
+              make products easier to use, but there are circumstances in which
+              adding friction improves product security. For instance,
+              two-factor authentication makes login slower but can reduce
+              identity theft. There are also occasions when implementing
+              friction simply makes users feel safe: Animated progress bars
+              don’t protect personal data but may meet a user’s expectations
+              about the higher degree of processing power required in a secure
+              environment.
+            </p>
+            <p class="py-6 leading-6">
+              As a product design manager for Freja, a digital security company
+              under contract with the Swedish government, I routinely look for
+              ways to harmonize usability with user safety. Sometimes that means
+              incorporating features that users perceive to be secure. For
+              example, most digital products can instantaneously compute complex
+              data, but research shows that artificial loading times give users
+              a sense that an advanced system is hard at work on their behalf.
+              On the other hand, if designers are overly reliant on features
+              that only appear to bolster security (known as security theater),
+              they may lead users to believe that their information is safer
+              than it is.
+            </p>
+            <div
+              class="subcribe-section Blog-details-main-content-contact-us my-6"
+            >
+              <h2 class="text-2xl flex justify-center interested-heading">
+                Interested in Software Product Development? Connect with us.
+              </h2>
+              <div class="case-imgs-load-button mx-auto my-6">
+                <a class="button flex gap-2 items-center" href="#"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+            <h2 class="bold text-2xl py-4">
+              Features That Enhance UX Security
+            </h2>
+            <p class="leading-6">
+              Identity verification is a crucial aspect of UX security.
+              Unfortunately, usernames and passwords aren’t reliable
+              authentication measures: In 2021, 85% of phishing attacks targeted
+              user credentials. To combat this, designers are implementing
+              security features that increase the time it takes for users to
+              create and log into an account. For instance, multifactor
+              authentication (MFA) requires multiple forms of identification at
+              account creation or login. Most products that employ MFA require
+              users to provide two of three credentials:
+            </p>
+            <img class="py-4" src="./assets/image/phone-size-blog.png" alt="" />
+            <div class="margin py-4">
+              <h2 class="text-2xl md:text-4xl py-6">App Maintenance Costs</h2>
+              <ul class="img-ul">
+                <li>App Maintenance Costs</li>
+                <li>
+                  Updating to the latest versions of third-party services.
+                </li>
+                <li>Fixing bugs.</li>
+                <li>Code optimization.</li>
+                <li>Controlling app stability and performance of servers.</li>
+              </ul>
+            </div>
+          </div>
+          <aside>
+            <div class="aside-container-of-blog">
+              <h2 class="text-4xl p-4">Popular Post</h2>
+              <div class="p-2 sm:p-4">
+                <h2 class="genral-color-4 w-fit text-2xl py-2">
+                  Web Development
+                </h2>
+                <h2 class="aside-content text-xl py-4">
+                  Learning to Learn: 5 Tips to Master Any Product Management
+                  Domain
+                </h2>
+                <div class="flex gap-2 md:gap-10">
+                  <h2 class="flex date-heading gap-2 items-center">
+                    <img
+                      class="clock-icon"
+                      src="./assets/image/🦆 icon _clock_.svg"
+                      alt=""
+                    />28 August 2021
+                  </h2>
+                  <h2 class="flex text-xl gap-2 items-center">
+                    <img
+                      class="clock-icon"
+                      src="./assets/image/./🦆 icon _eye_.svg"
+                      alt=""
+                    />5647
+                  </h2>
+                </div>
+              </div>
+              <hr class="py-6" />
+              <div class="p-2 sm:p-4">
+                <h2 class="genral-color-5 w-fit text-2xl py-4">Design</h2>
+                <h2 class="aside-content text-xl py-4">
+                  Learning to Learn: 5 Tips to Master Any Product Management
+                  Domain
+                </h2>
+                <div class="flex gap-10">
+                  <h2 class="flex text-xl gap-2 items-center">
+                    <img
+                      class="clock-icon"
+                      src="./assets/image/🦆 icon _clock_.svg"
+                      alt=""
+                    />28 August 2021
+                  </h2>
+                  <h2 class="flex text-xl gap-2 items-center">
+                    <img
+                      class="clock-icon"
+                      src="./assets/image/./🦆 icon _eye_.svg"
+                      alt=""
+                    />5647
+                  </h2>
+                </div>
+              </div>
+              <hr class="py-6" />
+              <div class="p-2 sm:p-4">
+                <h2 class="genral w-fit text-2xl">Management</h2>
+                <h2 class="aside-content text-xl py-4">
+                  Learning to Learn: 5 Tips to Master Any Product Management
+                  Domain
+                </h2>
+                <div class="flex gap-10">
+                  <h2 class="flex text-xl gap-2 items-center">
+                    <img
+                      class="clock-icon"
+                      src="./assets/image/🦆 icon _clock_.svg"
+                      alt=""
+                    />28 August 2021
+                  </h2>
+                  <h2 class="flex text-xl gap-2 items-center">
+                    <img
+                      class="clock-icon"
+                      src="./assets/image/./🦆 icon _eye_.svg"
+                      alt=""
+                    />5647
+                  </h2>
+                </div>
+              </div>
+              <hr class="py-6" />
+              <div class="p-2 sm:p-4">
+                <h2 class="genral-color-2 w-fit text-2xl">General</h2>
+                <h2 class="aside-content py-4">
+                  Learning to Learn: 5 Tips to Master Any Product Management
+                  Domain
+                </h2>
+                <div class="flex gap-10">
+                  <h2 class="flex text-xl gap-2 items-center">
+                    <img
+                      class="clock-icon"
+                      src="./assets/image/🦆 icon _clock_.svg"
+                      alt=""
+                    />28 August 2021
+                  </h2>
+                  <h2 class="flex text-xl gap-2 items-center">
+                    <img
+                      class="clock-icon"
+                      src="./assets/image/./🦆 icon _eye_.svg"
+                      alt=""
+                    />5647
+                  </h2>
+                </div>
+              </div>
+              <div class="p-4">
+                <h2>Category</h2>
+                <div class="grid grid-cols-1 gap-4 xl:grid-cols-2">
+                  <h2 class="genral-color-2 w-fit text-2xl">General</h2>
+                  <h2 class="genral w-fit text-2xl">Management</h2>
+                  <h2 class="genral-color-5 w-fit text-2xl">Design</h2>
+                  <h2 class="genral-color-4 w-fit text-2xl">Web Development</h2>
+                  <h2 class="genral-color-3 w-fit text-2xl">Microsoft</h2>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+      <div class="margin">
+        <div class="flex gap-2 items-center justify-end">
+          <h2 class="text-xl">Share via :</h2>
+          <div class="flex gap-2">
+            <img src="./assets/image/🦆facebook_.svg" alt="" />
+            <img src="./assets/image/🦆 mail_.svg" alt="" />
+            <img src="./assets/image/🦆 twitter_.svg" alt="" />
+          </div>
+        </div>
+        <hr class="py-4 margin" />
+        <div class="margin py-14">
+          <h2>Why MicroSoft</h2>
+          <p>
+            Our team can assist you in transforming your business with the
+            latest tech capabilities to stay ahead of the curve.
+          </p>
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4"
+          >
+            <div class="cards-contain card-active">
+              <h2 class="genral-color-3 w-fit text-2xl">Microsoft</h2>
+              <h2 class="cards-heading text-xl py-4">
+                How To Select Between Dedicated Developers And In-House
+                Developers?
+              </h2>
+              <h2 class="text-xl py-4">12 minute read</h2>
+            </div>
+            <div class="cards-contain">
+              <h2 class="genral-color-5 w-fit text-2xl">Design</h2>
+              <h2 class="cards-heading text-xl py-4">
+                Top Front-End Technologies to Select For The Digital
+                Transformation Of Your Business
+              </h2>
+              <p class="text-xl py-4">18 minute read</p>
+            </div>
+            <div class="cards-contain">
+              <h2 class="genral w-fit text-xl">Microsoft Technology</h2>
+              <h2 class="cards-heading text-xl py-4">
+                Why Choose MS Dynamics 365 for Mid to Large-Size Businesses?
+              </h2>
+              <p class="text-xl py-6">10 minute read</p>
+            </div>
+            <div class="cards-contain">
+              <h2 class="genral-color-4 w-fit text-xl">Web Development</h2>
+
+              <h2 class="cards-heading text-xl py-4">
+                Microsoft Dynamics 365 For Customized Healthcare Industry
+                Solutions
+              </h2>
+              <p class="text-xl py-4">20 minute read</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="footer-heading">
+        <div
+          class="margin flex flex-col md:flex-row items-center justify-around p-4 text-white my-10"
+        >
+          <div>
+            <h2 class="text-2xl py-7">
+              Ready to build your custom application solution?
+            </h2>
+
+            <p class="text-2xl">
+              Send us your requirements on
+              <a class="contact" href="info@maneksoft.com"
+                >info@maneksoft.com</a
+              >
+              or call
+              <a class="contact" href="  +1 999 888 7777"> +1 999 888 7777</a>
+            </p>
+          </div>
+          <div class="about-section-button">
+            <a class="button-1" href="#">Request a proposal</a>
+          </div>
+        </div>
+      </div>
+      <div class="main-footer">
+        <div
+          class="main-footer-contain grid grid-cols-1 sm:grid-cols-2 gap-4 margin md:grid-cols-3 xl:grid-cols-4 py-8 text-white items-center justify-center"
+        >
+          <div>
+            <img class="footer-logo" src="./assets/image/logo.png" alt="" />
+            <h2 class="text-color text-2xl">Stay Connected</h2>
+            <div class="flex gap-4 py-2">
+              <img src="./assets/image/.svg" alt="" />
+              <img src="./assets/image/twiter.png" alt="" />
+              <img src="./assets/image/whatsapp-square.svg" alt="" />
+              <img src="./assets/image/.svg" alt="" />
+              <img src="./assets/image/youtube-square.svg" alt="" />
+            </div>
+            <img class="py-6" src="./assets/image/footer-icon.svg" alt="" />
+          </div>
+          <div>
+            <h2 class="text-2xl">Company</h2>
+            <nav class="footer-nav">
+              <div class="flex gap-4">
+                <div>
+                  <ul class="text-color py-2">
+                    <li><a href="#">About Us</a></li>
+                    <li>
+                      <a href="#">Careers</a>
+
+                      <span class="footer-section-button"
+                        ><a href="#" class="main-safeguard-section-button"
+                          >WE ARE HIRING!</a
+                        ></span
+                      >
+                    </li>
+                    <li><a href="#">Case study</a></li>
+                    <li><a href="#">Blog</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="servive-contain text-color">
+            <h2 class="text-2xl text-white">Services</h2>
+            <a class="servive-contain" href="#">Custom Software Development</a
+            ><br />
+            <a class="servive-contain" href="#">Web Development</a><br />
+            <a class="servive-contain" href="#">Dedicated Development Team</a
+            ><br />
+            <a class="servive-contain" href="#">Software Product Development</a
+            ><br />
+            <a class="servive-contain" href="#">Ecommerce Development</a><br />
+          </div>
+          <div class="text-color">
+            <div class="flex gap-4 py-0.1">
+              <div>
+                <img src="assets/image/location.svg" alt="" />
+              </div>
+              <div>
+                <h2 class="text-2xl">
+                  HDS Business Center, Cluster M, JLT, USA
+                </h2>
+              </div>
+            </div>
+            <a href="info@maneksoft.com">info@maneksoft.com</a><br /><br />
+            <a href="+971 4 565 6723">+971 4 565 6723</a>
+          </div>
+        </div>
+        <div
+          class="terms flex flex-col gap-9 md:flex-row margin text-color justify-around"
+        >
+          <h2 class="text-2xl text-center">© 2022 • All Rights Reserved</h2>
+          <div>
+            <ul class="flex flex-col gap-7 md:flex-row items-center">
+              <h2 class="text-2xl">Terms of Use</h2>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Article</a></li>
+              <li><a href="#"> Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
