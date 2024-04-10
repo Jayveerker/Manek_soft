@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ManekSoft</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style_scss.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="shortcut icon"
+      href="./assets/image/title-logo.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="nav-margin pt-5">
+          <div class="flex justify-end gap-11 items-center">
+            <a class="email" href="mailto:hello@maneksoft.com"
+              >hello@maneksoft.com
+            </a>
+            <a href=" +1 623-845-2747"> +1 623-845-2747</a>
+          </div>
+          <div class="call-an-email-icons md:hidden">
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <nav class="navbar flex justify-between">
+            <a href="#">
+              <img class="text-xl" src="./assets/image/logo.png" alt="" />
+            </a>
+            <ul class="items-center gap-6 hidden sm:hidden md:flex">
+              <a href="#"><li>Company</li></a>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Service</a>
+                <div class="dropdown-content">
+                  <a href="#">Custom Software Development</a>
+                  <a href="#">Dedicated Development Team</a>
+                  <a href="#">Software Product Development </a>
+                  <a href="#">Ecommerce Development</a>
+                  <a href="#">Mobile Apps Development</a>
+                  <a href="#">Software Testing & QA</a>
+                  <a href="#">UX/UI Design</a>
+                </div>
+              </li>
+              <a href="#"><li>Case Studies</li></a>
+              <a href="#"></a>
+              <li>Blog</li>
+              <a href="#"> <li class="nav-button">Contact Us</li></a>
+            </ul>
+          </nav>
+          <div class="flex items-center">
+            <div class="flex xl:hidden items-center gap-6">
+              <button id="mobile-button" class="xl:hidden block">
+                <i
+                  onclick="changeIcon(this)"
+                  title="Menu"
+                  class="fa-solid fa-bars"
+                ></i>
+              </button>
+            </div>
+            <div>
+              <div class="mobile-menu absolute w-full" id="mobile-menu">
+                <ul
+                  class="text-white flex flex-col py-6 xl:hidden xl:items-center z-10"
+                >
+                  <li class="mx-auto"><a href="#">Company</a></li>
+                  <li class="mx-auto"><a href="#">Services</a></li>
+                  <li class="mx-auto"><a href="#">Company</a></li>
+                  <li class="mx-auto"><a href="#">Case Studies</a></li>
+                  <li class="mx-auto"><a href="#">Blog</a></li>
+                  <a href="#"> <li class="nav-button">Contact Us</li></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="header-contain flex justify-center md:items-center flex-col md:flex-row"
+        >
+          <div>
+            <h2 class="text-4xl py-3">Services</h2>
+            <h1 class="header-paragraph-no1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </h1>
+
+            <div class="flex items-center gap-9 my-4">
+              <h2 class="text-2xl">Home</h2>
+              <i class="fa-sharp text-2xl my-4 fa-solid fa-angle-right"></i>
+              <h2 class="text-2xl">Service</h2>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/image/half-main-img.png" alt="" />
+          </div>
+        </div>
+      </header>
+      <section class="margin">
+        <h2 class="text-2xl md:ext-4xl my-4">Introduction</h2>
+        <p class="condition-page-content text-xl my-4">
+          Welcome to the ManekSoft website (“Site”). ManekSoft LLC (“ManekSoft”,
+          “we”, “us”, and/or “our”) operates this Site to provide our users
+          (“you” and “your”) with information about ManekSoft and its platform.
+        </p>
+        <p class="condition-page-content text-xl my-4">
+          “ManekSoft is used by professional freelancers (“Freelancers”) who
+          wish to offer their development, engineering and other services
+          (“Services”) and clients who need the Services (“Clients”).
+          Freelancers that have passed our screening process and are admitted to
+          our network of professional Freelancers (“Network”) are referred to as
+          “Talent”. For purposes of this policy the term “Freelancers” is
+          broader in scope and includes both Talent and Freelancers who are not
+          Talent. The Personal Data we receive from Freelancers and Clients and
+          how we handle it differs, so we explain our data practices for
+          Freelancers and Clients in two distinct sections below. Click on the
+          one that applies to you: Freelancers; Clients.
+        </p>
+        <br />
+        <br /><br />
+        <h2 class="text-4xl md:ext-4xl my-4">Scope</h2>
+        <p class="condition-page-content text-xl my-4">
+          This Privacy Policy sets out how ManekSoft collects, retains, and uses
+          information, including personal data (“Personal Data”), about
+          Freelancers, Clients, other Site visitors and individuals, including
+          our vendors, partners, blog readers, and job applicants, as well as
+          users of ManekSoft software offerings such as our image sharing and
+          editing tool Collabshot. This Privacy Policy also covers data that
+          ManekSoft collects in-person, for instance at business conferences and
+          trade shows.
+        </p>
+        <br />
+        <br />
+        <h2 class="text-4xl md:ext-4xl my-4">Freelancers</h2>
+        <h4 class="text-xl my-4">Information We Collect</h4>
+        <h6 class="text-xl my-4 font-bold">
+          Information That You Provide To Us
+        </h6>
+        <p class="condition-page-content text-xl my-4">
+          When you apply as a Freelancer on the Site, you are asking to be
+          admitted to our Network. In order to admit you to the Network and
+          match your qualifications with our Client’s needs, we need to perform
+          a screening process, which evaluates your language skills,
+          personality, domain-specific knowledge, competence and
+          professionalism. We may also need to screen potential Freelancers for
+          specific technical skills, as required by our Clients. In this
+          context, you will be asked to provide information about yourself,
+          which includes:
+        </p>
+        <ul class="condition-page-ul my-6">
+          <li>your name</li>
+          <li>contact information</li>
+          <li>address</li>
+          <li>location</li>
+          <li>work experience</li>
+          <li>education</li>
+          <li>photo</li>
+          <li>government-issued identification</li>
+          <li>social network information</li>
+          <li>family information</li>
+          <li>billing information</li>
+        </ul>
+        <br /><br /><br /><br />
+        <h2 class="text-2xl my-4">
+          Verifying Your Identity and Biometric Data
+        </h2>
+        <p class="condition-page-content text-xl my-4">
+          If you are asking to be admitted to our Network, with your explicit
+          written informed consent (which you may provide at the time of
+          submitting a request to be admitted) we may collect biometric
+          information about you to verify and confirm your identity and as
+          further described below. We may ask you to take a photo of yourself
+          and of your government-issued identification through your mobile phone
+          (the “Verification Data”). The Verification Data will be provided to
+          our biometric technology service provider (Mitek Systems, Inc. –
+          “Mitek”), who will use facial recognition technology to analyze the
+          geometry of your face through the photographs and extract biometric
+          information or biometric identifiers relating to you (collectively,
+          “Biometric Data”). The Verification Data and the Biometric Data will
+          be used to verify and confirm your identity. However, ManekSoft will
+          not receive the Biometric Data but will only receive scores that will
+          indicate the authenticity of the government-issued identification,
+          whether your identity has been verified and confirmed, and your name
+          from your government-issued identification. Once the scores are
+          returned to ManekSoft, Mitek will not retain and will permanently
+          delete the Biometric Data.
+        </p>
+        <p class="condition-page-content text-xl my-4">
+          Moreover, Mitek will use the Verification Data to improve the
+          accuracy, reliability, usability, and functionality of its identity
+          verification technology, for fraud prevention and incident
+          investigation efforts; for such purposes, Mitek will retain your
+          Verification Data for up to 180 days, after which the Verification
+          Data will be permanently deleted. ManekSoft will retain your
+          self-photo and your name for fraud prevention purposes based upon our
+          legitimate interests. For more information about the retention of your
+          Biometric Data please see our Biometric Data Retention Policy.
+        </p>
+        <p class="condition-page-content text-xl my-4">
+          Consenting to the collection and processing of your Biometric Data and
+          your Verification Data as described in this Privacy Policy is
+          voluntary and if you do not consent to the collection of your
+          Biometric Data and Verification Data, we will allow you to provide us
+          your government-issued identification and confirm your identity via
+          video conference, and may ask you to provide us with a photo of
+          yourself. ManekSoft will retain your self-photo and your name for
+          fraud prevention purposes based upon our legitimate interests. If you
+          consented to the collection of your Biometric Data and Verification
+          Data, but later change your mind, you have the right to withdraw your
+          consent by contacting us at privacy@ManekSoft.com. If you withdraw
+          your consent, we will apply your preferences going forward and this
+          will not affect the lawfulness of the processing of your Biometric
+          Data or Verification Data prior to the effective date of your consent
+          withdrawal. Your Biometric Data and Verification Data may be shared
+          with third-party service providers who provide support services with
+          respect to the biometric technology implemented by, and services
+          provided by, Mitek. For more information on how Mitek may handle your
+          Verification Data and Biometric Data, please review Mitek’s website
+          and privacy policy. Moreover, your photo and name may be shared with
+          third-party service providers who assist us with our IT, security, and
+          fraud programs, our professional advisors, and as required by law or
+          regulation.
+        </p>
+      </section>
+      <div class="footer-heading">
+        <div
+          class="margin flex flex-col md:flex-row items-center justify-around p-4 text-white my-10"
+        >
+          <div>
+            <h2 class="text-2xl py-7">
+              Ready to build your custom application solution?
+            </h2>
+
+            <p class="text-2xl">
+              Send us your requirements on
+              <a class="contact" href="info@maneksoft.com"
+                >info@maneksoft.com</a
+              >
+              or call
+              <a class="contact" href="  +1 999 888 7777"> +1 999 888 7777</a>
+            </p>
+          </div>
+          <div class="about-section-button">
+            <a class="button-1" href="#">Request a proposal</a>
+          </div>
+        </div>
+      </div>
+      <div class="main-footer">
+        <div
+          class="main-footer-contain grid grid-cols-1 sm:grid-cols-2 gap-4 margin md:grid-cols-3 xl:grid-cols-4 py-8 text-white items-center justify-center"
+        >
+          <div>
+            <img class="footer-logo" src="./assets/image/logo.png" alt="" />
+            <h2 class="text-color text-2xl">Stay Connected</h2>
+            <div class="flex gap-4 py-2">
+              <img src="./assets/image/.svg" alt="" />
+              <img src="./assets/image/twiter.png" alt="" />
+              <img src="./assets/image/whatsapp-square.svg" alt="" />
+              <img src="./assets/image/.svg" alt="" />
+              <img src="./assets/image/youtube-square.svg" alt="" />
+            </div>
+            <img class="py-6" src="./assets/image/footer-icon.svg" alt="" />
+          </div>
+          <div>
+            <h2 class="text-2xl">Company</h2>
+            <nav class="footer-nav">
+              <div class="flex gap-4">
+                <div>
+                  <ul class="text-color py-2">
+                    <li><a href="#">About Us</a></li>
+                    <li>
+                      <a href="#">Careers</a>
+
+                      <span class="footer-section-button"
+                        ><a href="#" class="main-safeguard-section-button"
+                          >WE ARE HIRING!</a
+                        ></span
+                      >
+                    </li>
+                    <li><a href="#">Case study</a></li>
+                    <li><a href="#">Blog</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="servive-contain text-color">
+            <h2 class="text-2xl text-white">Services</h2>
+            <a class="servive-contain" href="#">Custom Software Development</a
+            ><br />
+            <a class="servive-contain" href="#">Web Development</a><br />
+            <a class="servive-contain" href="#">Dedicated Development Team</a
+            ><br />
+            <a class="servive-contain" href="#">Software Product Development</a
+            ><br />
+            <a class="servive-contain" href="#">Ecommerce Development</a><br />
+          </div>
+          <div class="text-color">
+            <div class="flex gap-4 py-0.1">
+              <div>
+                <img src="assets/image/location.svg" alt="" />
+              </div>
+              <div>
+                <h2 class="text-2xl">
+                  HDS Business Center, Cluster M, JLT, USA
+                </h2>
+              </div>
+            </div>
+            <a href="info@maneksoft.com">info@maneksoft.com</a><br /><br />
+            <a href="+971 4 565 6723">+971 4 565 6723</a>
+          </div>
+        </div>
+        <div
+          class="terms flex flex-col gap-9 md:flex-row margin text-color justify-around"
+        >
+          <h2 class="text-2xl text-center">© 2022 • All Rights Reserved</h2>
+          <div>
+            <ul class="flex flex-col gap-7 md:flex-row items-center">
+              <h2 class="text-2xl">Terms of Use</h2>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Article</a></li>
+              <li><a href="#"> Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ManekSoft</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style_scss.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="shortcut icon"
+      href="./assets/image/title-logo.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="nav-margin pt-5">
+          <div class="flex justify-end gap-11 items-center">
+            <a class="email" href="mailto:hello@maneksoft.com"
+              >hello@maneksoft.com
+            </a>
+            <a href=" +1 623-845-2747"> +1 623-845-2747</a>
+          </div>
+          <div class="call-an-email-icons md:hidden">
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <nav class="navbar flex justify-between">
+            <a href="#">
+              <img class="text-xl" src="./assets/image/logo.png" alt="" />
+            </a>
+            <ul class="items-center gap-6 hidden sm:hidden md:flex">
+              <a href="#"><li>Company</li></a>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Service</a>
+                <div class="dropdown-content">
+                  <a href="#">Custom Software Development</a>
+                  <a href="#">Dedicated Development Team</a>
+                  <a href="#">Software Product Development </a>
+                  <a href="#">Ecommerce Development</a>
+                  <a href="#">Mobile Apps Development</a>
+                  <a href="#">Software Testing & QA</a>
+                  <a href="#">UX/UI Design</a>
+                </div>
+              </li>
+              <a href="#"><li>Case Studies</li></a>
+              <a href="#"> <li>Blog</li></a>
+
+              <a href="#"> <li class="nav-button">Contact Us</li></a>
+            </ul>
+          </nav>
+          <div class="flex items-center">
+            <div class="flex xl:hidden items-center gap-6">
+              <button id="mobile-button" class="xl:hidden block">
+                <i
+                  onclick="changeIcon(this)"
+                  title="Menu"
+                  class="fa-solid fa-bars"
+                ></i>
+              </button>
+            </div>
+            <div>
+              <div class="mobile-menu absolute w-full" id="mobile-menu">
+                <ul
+                  class="text-white flex flex-col py-6 xl:hidden xl:items-center z-10"
+                >
+                  <li class="mx-auto"><a href="#">Company</a></li>
+                  <li class="mx-auto"><a href="#">Services</a></li>
+                  <li class="mx-auto"><a href="#">Company</a></li>
+                  <li class="mx-auto"><a href="#">Case Studies</a></li>
+                  <li class="mx-auto"><a href="#">Blog</a></li>
+                  <a href="#"> <li class="nav-button">Contact Us</li></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="header-contain flex justify-center md:items-center flex-col md:flex-row"
+        >
+          <div>
+            <h2 class="text-4xl py-3">career</h2>
+            <h1 class="header-paragraph-no1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </h1>
+
+            <div class="flex items-center gap-9 my-4">
+              <h2 class="text-2xl">Home</h2>
+              <i class="fa-sharp text-2xl my-4 fa-solid fa-angle-right"></i>
+              <h2 class="text-2xl">career</h2>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/image/half-main-img.png" alt="" />
+          </div>
+        </div>
+      </header>
+      <form class="flex flex-col md:flex-row gap-6 margin py-10 items-center">
+        <div class="career-search-input marker:flex items-center">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <label for="search"></label>
+          <input
+            class="career-search-input"
+            type="text"
+            name="search"
+            placeholder="Search relevant positions"
+          />
+        </div>
+        <div class="select">
+          <select name="format" id="format">
+            <option selected disabled>Designation</option>
+            <img class="px-4" src="./assets/image/down-arrow.svg" alt="" />
+            <option value="Filter by technology">Designation</option>
+          </select>
+        </div>
+        <div class="select">
+          <select name="format" id="format">
+            <option selected disabled>Full Time</option>
+            <i class="fa-sharp fa-solid fa-angle-down"></i>
+            <option value="Filter by technology">Full Time</option>
+          </select>
+        </div>
+        <div class="career-section-button">
+          <a class="button-1" href="#"> Search</a>
+        </div>
+      </form>
+      <section class="career-section">
+        <table class="w-full career-table">
+          <!-- 1 -->
+          <tr
+            class="techno-color flex text-center md:table-row md:text-left flex-col justify-center items-center"
+          >
+            <td class="tech-no-caed top-padding items-center td-width">
+              <div
+                class="flex flex-col md:flex-row items-center xl:gap-7 gap-3"
+              >
+                <div class="border rounded-full w-fit tech-img">
+                  <img src="./assets/image/java 1.svg" alt="java" />
+                </div>
+                <div>
+                  <h3 class="text-2xl">Java Developer</h3>
+                  <p>Experience: 4+ years</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="font-light lg:mb-2">No. of opening</p>
+                <p>08</p>
+              </div>
+            </td>
+            <td class="bottom-padding">
+              <div
+                class="flex flex-col lg:flex-row mt-3 xl:flex-row xl:mt-0 gap-3 lg:items-center items-end justify-end"
+              >
+                <a
+                  href="./career-details.html"
+                  class="border-2 border-black rounded-full read-me"
+                >
+                  Read more
+                </a>
+                <button id="edit" class="search h3">Apply Now</button>
+              </div>
+            </td>
+          </tr>
+          <!-- 2 -->
+          <tr
+            class="flex text-center md:table-row md:text-left flex-col justify-center items-center"
+          >
+            <td class="tech-no-caed top-padding items-center td-width">
+              <div
+                class="flex flex-col md:flex-row items-center xl:gap-7 gap-3"
+              >
+                <div class="border rounded-full w-fit tech-img tech-img-2">
+                  <img src="./assets/image/net.svg" alt="dotnet" />
+                </div>
+                <div>
+                  <h3 class="text-2xl">.Net Developer</h3>
+                  <p>Experience: 1+ years</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="font-light lg:mb-2">No. of opening</p>
+                <p>10</p>
+              </div>
+            </td>
+            <td class="bottom-padding">
+              <div
+                class="flex flex-col items-center lg:flex-row mt-3 xl:flex-row xl:mt-0 gap-3 lg:items-center justify-end"
+              >
+                <a
+                  href="./career-details.html"
+                  class="border-2 border-black rounded-full read-me"
+                >
+                  Read more
+                </a>
+                <button id="edit" class="search h3">Apply Now</button>
+              </div>
+            </td>
+          </tr>
+          <!-- 3 -->
+          <tr
+            class="techno-color flex text-center md:table-row md:text-left flex-col justify-center items-center"
+          >
+            <td class="tech-no-caed top-padding items-center td-width">
+              <div
+                class="flex flex-col md:flex-row items-center xl:gap-7 gap-3"
+              >
+                <div class="border rounded-full w-fit tech-img tech-img-3">
+                  <img src="./assets/image/php 1.svg" alt="php" />
+                </div>
+                <div>
+                  <h3 class="text-2xl">PHP Developer</h3>
+                  <p>Experience: 4+ years</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="font-light lg:mb-2">No. of opening</p>
+                <p>02</p>
+              </div>
+            </td>
+            <td>
+              <div
+                class="flex flex-col lg:flex-row mt-3 xl:flex-row xl:mt-0 gap-3 lg:items-center items-end justify-end bottom-padding"
+              >
+                <a
+                  href="./career-details.html"
+                  class="border-2 border-black rounded-full read-me"
+                >
+                  Read more
+                </a>
+                <button id="edit" class="search h3">Apply Now</button>
+              </div>
+            </td>
+          </tr>
+          <!-- 4 -->
+          <tr
+            class="flex text-center md:table-row md:text-left flex-col justify-center items-center"
+          >
+            <td class="tech-no-caed top-padding items-center td-width">
+              <div
+                class="flex flex-col md:flex-row items-center xl:gap-7 gap-3"
+              >
+                <div class="border rounded-full w-fit tech-img tech-img-4">
+                  <img src="./assets/image/android-logo.svg" alt="android" />
+                </div>
+                <div>
+                  <h3 class="text-2xl">Android Developer</h3>
+                  <p>Experience: 3.5+ years</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="font-light lg:mb-2">No. of opening</p>
+                <p>05</p>
+              </div>
+            </td>
+            <td class="bottom-padding">
+              <div
+                class="flex flex-col items-center lg:flex-row mt-3 xl:flex-row xl:mt-0 gap-3 lg:items-center items-end justify-end"
+              >
+                <a
+                  href="./career-details.html"
+                  class="border-2 border-black rounded-full read-me"
+                >
+                  Read more
+                </a>
+                <button id="edit" class="search h3">Apply Now</button>
+              </div>
+            </td>
+          </tr>
+          <!-- 5 -->
+          <tr
+            class="techno-color flex text-center md:table-row md:text-left flex-col justify-center items-center"
+          >
+            <td class="tech-no-caed top-padding items-center td-width">
+              <div
+                class="flex flex-col md:flex-row items-center xl:gap-7 gap-3"
+              >
+                <div class="border rounded-full w-fit tech-img tech-img-5">
+                  <img src="./assets/image/apple.svg" alt="ios" />
+                </div>
+                <div>
+                  <h3 class="text-2xl">iOS Developer</h3>
+                  <p>Experience: 4+ years</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="font-light lg:mb-2">No. of opening</p>
+                <p>11</p>
+              </div>
+            </td>
+            <td>
+              <div
+                class="flex flex-col lg:flex-row mt-3 xl:flex-row xl:mt-0 gap-3 lg:items-center items-end justify-end bottom-padding"
+              >
+                <a
+                  href="./career-details.html"
+                  class="border-2 border-black rounded-full read-me"
+                >
+                  Read more
+                </a>
+                <button id="edit" class="search h3">Apply Now</button>
+              </div>
+            </td>
+          </tr>
+          <!-- 6 -->
+          <tr
+            class="flex text-center md:table-row md:text-left flex-col justify-center items-center"
+          >
+            <td class="tech-no-caed top-padding items-center td-width">
+              <div
+                class="flex flex-col md:flex-row items-center xl:gap-7 gap-3"
+              >
+                <div class="border rounded-full w-fit tech-img tech-img-6">
+                  <img
+                    src="./assets/image/react-native.svg"
+                    alt="react native"
+                  />
+                </div>
+                <div>
+                  <h3 class="text-2xl">React Native Developer</h3>
+                  <p>Experience: 9+ years</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="font-light lg:mb-2">No. of opening</p>
+                <p>01</p>
+              </div>
+            </td>
+            <td class="bottom-padding">
+              <div
+                class="flex flex-col items-center lg:flex-row mt-3 xl:flex-row xl:mt-0 gap-3 lg:items-center items-end justify-end"
+              >
+                <a
+                  href="./career-details.html"
+                  class="border-2 border-black rounded-full read-me"
+                >
+                  Read more
+                </a>
+                <button id="edit" class="search h3">Apply Now</button>
+              </div>
+            </td>
+          </tr>
+          <!-- 7 -->
+          <tr
+            class="techno-color flex text-center md:table-row md:text-left flex-col justify-center items-center"
+          >
+            <td class="tech-no-caed top-padding items-center td-width">
+              <div
+                class="flex flex-col md:flex-row items-center xl:gap-7 gap-3"
+              >
+                <div class="border rounded-full w-fit tech-img tech-img-7">
+                  <img src="./assets/image/v.svg" alt="vue" />
+                </div>
+                <div>
+                  <h3 class="text-2xl">Vue js Developer</h3>
+                  <p>Experience: 5+ years</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="font-light lg:mb-2">No. of opening</p>
+                <p>07</p>
+              </div>
+            </td>
+            <td>
+              <div
+                class="flex flex-col items-center lg:flex-row mt-3 xl:flex-row xl:mt-0 gap-3 lg:items-center items-end justify-end bottom-padding"
+              >
+                <a
+                  href="./career-details.html"
+                  class="border-2 border-black rounded-full read-me"
+                >
+                  Read more
+                </a>
+                <button id="edit" class="search h3">Apply Now</button>
+              </div>
+            </td>
+          </tr>
+          <!-- 8 -->
+          <tr
+            class="flex text-center md:table-row md:text-left flex-col justify-center items-center"
+          >
+            <td class="tech-no-caed top-padding items-center td-width">
+              <div
+                class="flex flex-col md:flex-row items-center xl:gap-7 gap-3"
+              >
+                <div class="border rounded-full w-fit tech-img tech-img-2">
+                  <img src="./assets/image/A.svg" alt="Angular" />
+                </div>
+                <div>
+                  <h3 class="text-2xl">Angular Developer</h3>
+                  <p>Experience: 4+ years</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="font-light lg:mb-2">No. of opening</p>
+                <p>03</p>
+              </div>
+            </td>
+            <td class="bottom-padding">
+              <div
+                class="flex flex-col items-center lg:flex-row mt-3 xl:flex-row xl:mt-0 gap-3 lg:items-center items-end justify-end"
+              >
+                <a
+                  href="./career-details.html"
+                  class="border-2 border-black rounded-full read-me"
+                >
+                  Read more
+                </a>
+                <button id="edit" class="search h3">Apply Now</button>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <div class="box-modal">
+        <div class="overlay"></div>
+        <div class="body-modal mx-auto 2xl:mx-0 relative rounded-sm">
+          <form action="#">
+            <div
+              class="flex w-full xl:!pb-5 lg:pb-2 py-2 px-5 lg:py-0 lg:static fixed top-0 bg-white border-b items-center justify-between left-0"
+            >
+              <h3>Share Resume</h3>
+              <a class="cross-button cursor-pointer rounded-full"
+                ><i class="fa-solid fa-x"></i
+              ></a>
+            </div>
+            <div
+              class="grid md:grid-cols-2 lg:mt-4 mt-16 lg:gap-11 gap-4 grid-cols-1"
+            >
+              <div>
+                <label for="Fname">Full Name</label>
+                <br />
+                <input
+                  type="text"
+                  placeholder="Name"
+                  id="Fname"
+                  name="fname"
+                  class="input-filed border w-full md:mt-4 mt-2"
+                />
+              </div>
+
+              <div>
+                <label for="Email">Your Email</label>
+                <br />
+                <input
+                  name="email"
+                  type="email"
+                  id="Email"
+                  placeholder="Enter Email Here"
+                  class="input-filed border w-full md:mt-4 mt-2"
+                />
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 grid-cols-1 lg:gap-11 gap-4 mt-6">
+              <div>
+                <label for="Phone">mobile Number</label>
+                <br />
+                <input
+                  type="number"
+                  placeholder="Enter Mobile Number Here"
+                  id="Phone"
+                  name="fname"
+                  class="input-filed border w-full md:mt-4 mt-2"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                />
+              </div>
+
+              <div>
+                <label for="Country">Highest Qualification </label>
+                <br />
+                <input
+                  name="country"
+                  id="Country"
+                  class="input-filed border w-full md:mt-4 mt-2"
+                />
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 grid-cols-1 ctc-gap xl:mt-9 mt-6">
+              <div>
+                <label for="Years">Experience</label>
+
+                <br />
+                <select
+                  name="Years"
+                  id="Years"
+                  class="input-filed md:mt-4 mt-2 w-full"
+                >
+                  <option value="Years">Years</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">5</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="ctc">Current CTC</label>
+                <br />
+                <input
+                  type="text"
+                  name="ctc"
+                  id="ctc"
+                  class="input-filed md:mt-4 mt-2 w-full border"
+                />
+              </div>
+
+              <div>
+                <label for="Ectc">Expected CTC</label>
+                <br />
+                <input
+                  type="text"
+                  name="Ectc"
+                  id="Ectc"
+                  class="input-filed md:mt-4 mt-2 w-full border"
+                />
+              </div>
+            </div>
+
+            <div
+              class="custom-upload border border-dashed text-center flex justify-center items-center flex-col"
+            >
+              <input type="file" name="fileUp" id="fileUp" hidden />
+              <img
+                src="./assets/image/technology-image/icon _cloud_upload_.svg"
+                alt=""
+              />
+              <label for="fileUp">Upload Resume Here</label>
+              <p>Please upload file in PDF and Doc format only</p>
+            </div>
+
+            <div
+              class="xl:mt-8 lg:mt-5 mt-4 flex flex-col md:flex-row items-center justify-between"
+            >
+              <div
+                class="input-filed flex items-center gap-4 rounded-md border"
+              >
+                <input type="checkbox" />
+                <p>I'm not a robot</p>
+                <img src="./assets/image/captcha.svg" alt="" />
+              </div>
+              <div class="about-section-button">
+                <a class="button-1" href="#">Submit Application</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- pop-pop-screen -->
+      <!-- <div class="center">
+        <button id="show-login">login</button>
+      </div>
+      <div class="popup margin">
+        <div class="flex justify-between items-center">
+          <h2>Share Resume</h2>
+          <div class="center">
+            <div class="close-btn">&times;</div>
+          </div>
+        </div>
+
+        <div class="popup-form">
+          <form class="form-element contact-content">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <div class="my-4">
+                <label for="fname">Full Name </label><br />
+                <input type="text" name="fname" placeholder="Name" />
+              </div>
+              <div class="my-4">
+                <label for="your Email"> Email</label><br />
+                <input
+                  type="email"
+                  name="  Email"
+                  placeholder="Enter Email Here"
+                />
+              </div>
+              <div class="my-4">
+                <label for="Phone Number">mobile Number</label><br />
+                <input
+                  type="tel"
+                  name="mobile Number"
+                  placeholder="Enter Mobile Number Here"
+                />
+              </div>
+              <div class="my-4">
+                <label for="Your Country name my-6"
+                  >Highest Qualification </label
+                ><br />
+                <input type="text" name="Highest Qualification" />
+              </div>
+            </div>
+            <div class="grid grid-cols-3">
+              <!-- <select name="format" id="format">
+                <option selected disabled>years</option>
+                <img class="px-4" src="./assets/image/down-arrow.svg" alt="" />
+                <option value="Filter by technology">years</option>
+              </select> -->
+      <!-- <div class="my-4"> -->
+      <!-- <label for="Phone Number">Current CTC</label><br />
+                <input type="tel" name="Current CTC" />
+              </div>
+              <div class="my-4">
+                <label for="Your Country name my-6">Expected CTC </label><br />
+                <input type="text" name="Expected CTC" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div> -->
+
+      <!-- footer -->
+      <div class="footer-heading">
+        <div
+          class="margin flex flex-col md:flex-row items-center justify-around p-4 text-white my-10"
+        >
+          <div>
+            <h2 class="text-2xl py-7">
+              Ready to build your custom application solution?
+            </h2>
+
+            <p class="text-2xl">
+              Send us your requirements on
+              <a class="contact" href="info@maneksoft.com"
+                >info@maneksoft.com</a
+              >
+              or call
+              <a class="contact" href="  +1 999 888 7777"> +1 999 888 7777</a>
+            </p>
+          </div>
+          <div class="about-section-button">
+            <a class="button-1" href="#">Request a proposal</a>
+          </div>
+        </div>
+      </div>
+      <div class="main-footer">
+        <div
+          class="main-footer-contain grid grid-cols-1 sm:grid-cols-2 gap-4 margin md:grid-cols-3 xl:grid-cols-4 py-8 text-white items-center justify-center"
+        >
+          <div>
+            <img class="footer-logo" src="./assets/image/logo.png" alt="" />
+            <h2 class="text-color text-2xl">Stay Connected</h2>
+            <div class="flex gap-4 py-2">
+              <img src="./assets/image/.svg" alt="" />
+              <img src="./assets/image/twiter.png" alt="" />
+              <img src="./assets/image/whatsapp-square.svg" alt="" />
+              <img src="./assets/image/.svg" alt="" />
+              <img src="./assets/image/youtube-square.svg" alt="" />
+            </div>
+            <img class="py-6" src="./assets/image/footer-icon.svg" alt="" />
+          </div>
+          <div>
+            <h2 class="text-2xl">Company</h2>
+            <nav class="footer-nav">
+              <div class="flex gap-4">
+                <div>
+                  <ul class="text-color py-2">
+                    <li><a href="#">About Us</a></li>
+                    <li>
+                      <a href="#">Careers</a>
+
+                      <span class="footer-section-button"
+                        ><a href="#" class="main-safeguard-section-button"
+                          >WE ARE HIRING!</a
+                        ></span
+                      >
+                    </li>
+                    <li><a href="#">Case study</a></li>
+                    <li><a href="#">Blog</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="servive-contain text-color">
+            <h2 class="text-2xl text-white">Services</h2>
+            <a class="servive-contain" href="#">Custom Software Development</a
+            ><br />
+            <a class="servive-contain" href="#">Web Development</a><br />
+            <a class="servive-contain" href="#">Dedicated Development Team</a
+            ><br />
+            <a class="servive-contain" href="#">Software Product Development</a
+            ><br />
+            <a class="servive-contain" href="#">Ecommerce Development</a><br />
+          </div>
+          <div class="text-color">
+            <div class="flex gap-4 py-0.1">
+              <div>
+                <img src="assets/image/location.svg" alt="" />
+              </div>
+              <div>
+                <h2 class="text-2xl">
+                  HDS Business Center, Cluster M, JLT, USA
+                </h2>
+              </div>
+            </div>
+            <a href="info@maneksoft.com">info@maneksoft.com</a><br /><br />
+            <a href="+971 4 565 6723">+971 4 565 6723</a>
+          </div>
+        </div>
+        <div
+          class="terms flex flex-col gap-9 md:flex-row margin text-color justify-around"
+        >
+          <h2 class="text-2xl text-center">© 2022 • All Rights Reserved</h2>
+          <div>
+            <ul class="flex flex-col gap-7 md:flex-row items-center">
+              <h2 class="text-2xl">Terms of Use</h2>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Article</a></li>
+              <li><a href="#"> Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/swiper.js"></script>
+  <script src="./assets/js/pop-pop.js"></script>
+</html>
